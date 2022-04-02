@@ -7,6 +7,6 @@
 - We will be using [ASCiiDoctor](https://docs.asciidoctor.org/) to combine files/produce SSP output
 
 ## Repo Structure
-- **ORGANIZATION** - holds organization specific information, in the SSP section 13 this includes the **Control Summary Information** and the **Solution Summary**
+- **ORGANIZATION** - holds organization specific information, for each part of a FedRAMP control summary i.e. `AC-1 part a` there is a simple ASCiiDoctor file that stores the organization's narrative for the control requirement.
 - **STANDARDS** - holds the NIST, FedRAMP, and other applicable requirements for the system
-- **SSP** - this holds the information necessary to dynamically generate the SSP. This directory combines information from **STANDARDS**, **ORGANIZATION**, and other places
+- **SSP** - this holds the information necessary to dynamically generate the SSP. This directory combines information from **STANDARDS**, **ORGANIZATION**, and other places. This directory also holds **Control Summary Information** and the **Solution Summary** for each control requirement.
