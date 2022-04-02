@@ -1,2 +1,10 @@
-# automated-fedramp-mod-ssp
- I wanted to try to automate the FedRAMP SSP Generation process
+# Automating the FedRAMP Moderate System Security Plan (SSP)
+## Why
+- The US Federal Government has a crazy amount of requirements that go into the Federal Information System Modernization Act (FISMA) which drives multiple standards produced by the National Institute of Standards and Technology (NIST). All US Fedreal agencies are required to ensure that their Information Systems comply with FISMA. Agencies are responsible for ensuring their systems go through an Accredidation and Authorization (A&A) proccess verifying that FISMA requirements are met.
+- The same requirements apply to Information System Services that US Federal Agencies choose to purchase from the private sector
+    - Federal Agencies were doing similar assessments on cloud service providers (example: every Federal Agency that used GMail would have to do an assessment under FISMA)
+        - To minimimize the burden and wasted resources combing the same cloud service provider, multiple times and to increase assurance the [FedRAMP](https://www.fedramp.gov) program was created
+        - FedRAMP is FAR from perfect but it's better than the alternative
+- Like most things in the Federal Government the standard way of doing business is very slow and cumbersome, often working exclusively in Microsoft products and requiring lots of manual copy and paste. As we all know this can lead to a crazy amount of transcription errors and other issues.
+- Most cloud service providers have cutting edge engineers working at the edge of what modern computing technology has to offer, working in a standard Word Processor running on a local host is actually a regression from standard DevOps practices and makes it extremely hard to work with "control owners" like modern Site Reliability Engineering (SRE) teams, product teams, and nearly any team at a modern cloud service provider.
+- There has to be a better way, built on open source tooling to do System Security Plans for FedRAMP
